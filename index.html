@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/cards.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <title>ProOriente SAS</title>
+</head>
+<body>
+    <!-- Contactbar -->
+    <div class="flex bg-darkGreen text-white justify-around px-6 py-1 mx-auto font-display">
+        <p>comercial@prooriente.com.co</p>
+        <p>Tel.+57 (601)657-5857</p>
+        <p><i class="fa-brands fa-instagram hover:text-darkBlue"></i> <i class="fa-brands fa-linkedin hover:text-darkBlue"></i> <i class="fa-brands fa-whatsapp hover:text-darkBlue"></i></p>
+    </div>
+    <!-- Navbar -->
+    <nav class="relative container mx-auto p-6">
+        
+        <!-- Flex Container -->
+        <div class="flex items-center justify-between">
+            <!-- Logo -->
+            <div class="pt-2">
+                <img src="img/logo.svg" alt="">
+            </div>
+            <!-- Menu Items -->
+            <div class="hidden md:flex space-x-6 font-body">
+                <a href="index.html" class="hover:bg-lightBrown hover:text-white hover:px-4 rounded-3xl">Inicio</a>
+                <a href="index.html" class="hover:bg-lightBrown hover:text-white">Productos</a>
+                <a href="index.html" class="hover:bg-lightBrown hover:text-white">Procesos</a>
+                <a href="trayectoria.html" class="hover:bg-lightBrown hover:text-white">Trayectoria</a>
+                <a href="index.html" class="hover:bg-lightBrown hover:text-white">Sentido Social</a>
+            </div>
+            <!-- Button -->
+            <a href="" class="font-body hidden md:block p-1 px-6 pt-1 text-white bg-darkGreen rounded-full baseline hover:bg-lightBrown">Contáctanos</a>
+            <!-- Hamburger Icon -->
+            <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
+                <span class="hamburger-top"></span>
+                <span class="hamburger-middle"></span>
+                <span class="hamburger-bottom"></span>
+            </button>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="md:hidden">
+            <div id="menu" class="font-body absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
+                <a href="#">Inicio</a>
+                <a href="#">Productos</a>
+                <a href="#">Procesos</a>
+                <a href="#">Trayectoria</a>
+            </div>
+        </div>
+    </nav>
+    <!-- Hero Section -->
+    <section id="hero">
+        <!-- Flex Container -->
+        <div class="hidden antialiased bg-gradient-to-b font-sans items-center justify-center px-12 md:flex">
+            <div class="flex h-96 items-stretch  min-w-md overflow-hidden w-full">
+                <div class="active bg-center bg-cover bg-darkGreen bg-red-img bg-no-repeat card cursor-pointer flex-grow m-2 min-w-14 overflow-hidden relative rounded-3xl transition-base">
+                    <div class="absolute bg-gradient-to-b bottom-0 from-transparent h-1/2 inset-x-0 opacity-0 shadow to-black transform transition-base translate-y-1/2 z-10"></div>
+                    <div class="absolute bottom-0 flex label left-0 mb-3 ml-2 transition-base z-20">
+                        <div class="bg-white flex h-10 icon items-center justify-center mr-3 rounded-full text-darkGreen w-10">
+                            <i class="fas fa-truck"></i>
+                        </div>
+                        <div class="content flex flex-col justify-center leading-tight text-white whitespace-pre">
+                            <div class="font-bold opacity-0 relative transform transition-base translate-x-8 font-display">SOLUCIONES DE EMBALAJE</div>
+                            <div class="delay-100 opacity-0 relative transform transition-base translate-x-8 font-body">Lorem ipsum dolor sit amet</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-center bg-cover bg-darkBrown bg-yellow-img bg-no-repeat card cursor-pointer flex-grow m-2 min-w-14 overflow-hidden relative rounded-3xl transition-base">
+                    <div class="absolute bg-gradient-to-b bottom-0 from-transparent h-1/2 inset-x-0 opacity-0 shadow to-black transform transition-base translate-y-1/2 z-10"></div>
+                    <div class="absolute bottom-0 flex label left-0 mb-3 ml-2 transition-base z-20">
+                        <div class="bg-white flex h-10 icon items-center justify-center rounded-full text-darkBrown w-10">
+                            <i class="fas fa-cubes-stacked"></i>
+                        </div>
+                        <div class="content flex flex-col justify-center leading-tight ml-3 text-white whitespace-pre">
+                            <div class="font-bold opacity-0 relative transform transition-base translate-x-8 font-display">MADERAS</div>
+                            <div class="delay-100 opacity-0 relative transform transition-base translate-x-8 font-body">Lorem ipsum dolor sit amet</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-center bg-cover bg-darkBlue bg-green-img bg-no-repeat card cursor-pointer flex-grow m-2 min-w-14 overflow-hidden relative rounded-3xl transition-base">
+                    <div class="absolute bg-gradient-to-b bottom-0 from-transparent h-1/2 inset-x-0 opacity-0 shadow to-black transform transition-base translate-y-1/2 z-10"></div>
+                    <div class="absolute bottom-0 flex label left-0 mb-3 ml-2 transition-base z-20">
+                        <div class="bg-white flex h-10 icon items-center justify-center rounded-full text-darkBlue w-10">
+                            <i class="fas fa-tree"></i>
+                        </div>
+                        <div class="content flex flex-col justify-center leading-tight ml-3 text-white whitespace-pre">
+                            <div class="font-bold opacity-0 relative transform transition-base translate-x-8 font-display">BONOS DE CARBONO</div>
+                            <div class="delay-100 opacity-0 relative transform transition-base translate-x-8 font-body">Lorem ipsum dolor sit amet</div>
+                        </div>
+                    </div>
+                </div>                
+            </div>
+        </div>
+    </section>
+    <!-- Products Section -->
+    <section id="products">
+        <!-- Flex Container -->
+        <div class="container flex flex-col-reverse items-center px-6 mx-auto mt-10 space-y-5 space-x-12 md:space-y-10 md:flex-row">
+            <!-- Left Item -->
+            <div class="flex flex-col mb-16 space-y-10 mt-5 md:w-1/2">
+                <h1 class="max-w-md text-4xl font-bold text-center md:text-5xl md:text-left text-darkBlue font-display">Productos</h1>
+                <p class="max-w-sm text-center md:text-left font-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic praesentium quas cum cupiditate mollitia rem sapiente eius exercitationem dolore magni, ad suscipit fuga animi odit in enim explicabo possimus modi.</p>
+            </div>
+            <!-- Image -->
+            <div class="md:w-1/2">
+                <img src="img/ptaserrio.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- Products Detail-->
+    <section id="tipos">
+        <!-- Container Detail -->
+        <div class="px-5 mx-auto mt-12 text-center bg-prod-img bg-fixed">
+            <div class="flex flex-col mt-24 md:flex-row md:space-x-6">
+                <!-- Cepillada -->
+                <div class="flex flex-col items-center p-6 space-y-6 md:w-1/4">
+                    <img src="img/cepillada.jfif" class="w-28 mt-6 rounded-full" alt=""/>
+                    <h5 class="text-lg font-bold text-darkBlue font-display">SECA CEPILLADA</h5>
+                    <p class="text-sm text-darkGreen font-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo.</p>
+                    <a href="" class="md:block p-2 px-6 pt-2 text-white bg-darkGreen rounded-lg baseline hover:bg-lightBrown font-display">Ver más <i class="fas fa-arrow-right-long"></i></a>
+                </div>
+                <!-- Aserrada -->
+                <div class="flex flex-col items-center p-6 space-y-6 md:w-1/4">
+                    <img src="img/aserrada.jfif" class="w-28 mt-6 rounded-full" alt=""/>
+                    <h5 class="text-lg font-bold text-darkBlue font-display">SECA ASERRADA</h5>
+                    <p class="text-sm text-darkGreen font-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo.</p>
+                    <a href="" class="md:block p-2 px-6 pt-2 text-white bg-darkGreen rounded-lg baseline hover:bg-lightBrown font-display">Ver más <i class="fas fa-arrow-right-long"></i></a>
+                </div>
+                <!-- Rolliza -->
+                <div class="flex flex-col items-center p-6 space-y-6 md:w-1/4">
+                    <img src="img/rolliza.jfif" class="w-28 mt-6 rounded-full" alt=""/>
+                    <h5 class="text-lg font-bold text-darkBlue font-display">ROLLIZA</h5>
+                    <p class="text-sm text-darkGreen font-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo.</p>
+                    <a href="" class="md:block p-2 px-6 pt-2 text-white bg-darkGreen rounded-lg baseline hover:bg-lightBrown font-display">Ver más <i class="fas fa-arrow-right-long"></i></a>
+                </div>
+                <!-- Pulpa -->
+                <div class="flex flex-col items-center p-6 space-y-6 md:w-1/4">
+                    <img src="img/pulpa.jfif" class="w-28 mt-6 rounded-full" alt=""/>
+                    <h5 class="text-lg font-bold text-darkBlue font-display">PULPA</h5>
+                    <p class="text-sm text-darkGreen font-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo.</p>
+                    <a href="" class="md:block p-2 px-6 pt-2 text-white bg-darkGreen rounded-lg baseline hover:bg-lightBrown font-display">Ver más <i class="fas fa-arrow-right-long"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="Otros">
+        <div class="container flex flex-col mx-auto justify-center md:flex-row">
+            <!-- Embalaje -->
+            <div class="flex flex-col mt-14 space-x-6 md:w-1/2 md:flex-row">
+                <!-- Image -->
+                <img src="img/ptaserrio.jpg" class="mb-16 md:w-1/2">
+                <!-- Right Item -->
+                <div class="flex-row space-y-6">
+                    <p><i class="fas fa-angles-left text-4xl text-lightBrown hover:text-darkBlue"></i></p>
+                    <div class="bg-darkBlue p-4 mt-16 min-h-fit">
+                        <h5 class="font-bold text-white text-center md:text-lg md:text-left font-display">SOLUCIONES DE EMBALAJE</h5>
+                        <p class="text-center text-white text-sm md:text-left font-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic praesentium quas cum cupiditate mollitia.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Bonos -->
+            <div class="flex flex-col mt-14 space-x-6 md:w-1/2 md:flex-row">
+                <!-- Left Item -->
+                <div class="flex-row space-y-6">
+                    <div class="bg-darkBlue p-4 mt-2 min-h-fit">
+                        <h5 class="font-bold text-white text-center md:text-lg md:text-left font-display">BONOS DE CARBONO</h5>
+                        <p class="text-center text-white text-sm md:text-left font-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic praesentium quas cum cupiditate mollitia rem sapiente eius exercitationem.</p>
+                    </div>
+                    <p class="flex text-4xl text-lightBrown justify-end hover:text-darkBlue"><i class="fas fa-angles-right"></i></p>
+                </div>
+                <!-- Image -->
+                <img src="img/plantacion01.jpg" class="mb-16 md:w-1/2">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gradient-to-r from-darkGreen to-darkBlue mt-10 font-body">
+        <div class="container flex flex-col-reverse justify-between px-6 py-10 mx-auto space-y-8 md:flex-row md:space-y-0">
+            <!-- Logo  and Social Container-->
+            <div class="flex flex-col-reverse items-center justify-center space-y-12 md:flex-col md:space-y-0 md:items-start">
+                <div class="mx-auto my-6 text-center text-white md:hidden">Copyright &copy; 2022, Todos los derechos reservados</div>
+                <!-- Logo -->
+                <div>
+                    <img src="img/LogoProOrienteBN.svg" class="h-36" alt="">
+                </div>
+                <!-- Social Links Container -->
+                <div class="flex justify-center space-x-10">
+                    <!-- Links -->
+                    <p><i class="fa-brands fa-instagram text-white text-2xl hover:text-darkBlue"></i></p>
+                    <p><i class="fa-brands fa-linkedin text-white text-2xl hover:text-darkBlue"></i></p>
+                    <p><i class="fa-brands fa-whatsapp text-white text-2xl hover:text-darkBlue"></i></p>
+                </div>
+            </div>
+            <!-- List Container -->
+            <div class="flex justify-around space-x-32">
+                <div class="flex flex-col space-y-3 text-white">
+                    <a href="#" class="hover:text-darkBlue">Inicio</a>
+                    <a href="#" class="hover:text-darkBlue">Productos</a>
+                    <a href="#" class="hover:text-darkBlue">Procesos</a>
+                    <a href="#" class="hover:text-darkBlue">Trayectoria</a>
+                </div>
+                <div class="flex flex-col space-y-3 text-white">
+                    <a href="#" class="hover:text-darkBlue">Sentido Social</a>
+                    <a href="#" class="hover:text-darkBlue">Trabaja con nosotros</a>
+                    <a href="#" class="hover:text-darkBlue">Politica de Privacidad</a>
+                </div>
+            </div>
+
+            <!-- Input container -->
+            <div class="flex flex-col justify-between">
+                <form>
+                    <div class="flex space-x-3">
+                        <input type="text" class="flex-1 px-4 rounded-full focus:outline-none" placeholder="Permítenos asesorarte">
+                        <button class="px-6 py-2 text-white rounded-full bg-darkGreen hover:bg-darkBlue focus:outline-none font-display">Enviar</button>
+                    </div>
+                </form>
+                <div class="hidden text-white md:block">Copyright &copy; 2022, Todos los derechos reservados</div>
+            </div>
+        </div>
+    </footer>
+    <script src="script/cards.js"></script>
+    <script src="script/script.js"></script>
+</body>
+</html>
